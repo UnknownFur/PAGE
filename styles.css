@@ -2,6 +2,8 @@
 	width: 100%;
 	box-sizing: border-box;
 	overflow: hidden;
+    margin: 0vh;
+    padding: 0vh;
 }
 .BarraPrincipal{
 	width: 100%;
@@ -13,25 +15,25 @@
 }
 .Rectangle3{
     width: 100%;
-    height: 118px;
+    height: 19vh;
     left: 0px;
-    top: 38px; 
+    top: 5vh; 
     position: absolute;
     background: #775035;
     z-index: -1;
 }
 .Rectangle2{
     width: 100%;
-    height: 101px;
+    height: 16vh;
     left: 0px;
-    top: 31px;
+    top: 4vh;
     position: absolute;
     background: #463117;
     z-index: -1;
 }
 .Rectangle1{
     width: 100%;
-    height: 105.65px;
+    height: 16vh;
     left: 0px;
     top: 0px;
     position: absolute;
@@ -41,9 +43,9 @@
 .Falsette{
     text-align: left;
 	cursor:pointer;
-    margin-left: 3%;
-    margin-top: 20px;
-    font-size: 400%; 
+    margin-left: 7vh;
+    margin-top: 2.5vh;
+    font-size: 10vh; 
     font-family: Italianno;
 }
 .Falsette a{
@@ -62,13 +64,13 @@ nav{
 nav ul li{  
 	list-style: none;
 	display: inline-block;
-    margin-left: 60px;
-    margin-top: 5%;
+    margin-left: 7vh;
+    margin-top: 3vh;
 }
 nav ul li a{
 	text-decoration: none;
 	color: #fff;
-	font-size: 24px;
+	font-size: 4vh;
 }
 nav ul li a:hover{
 	color: #775035
@@ -77,10 +79,10 @@ nav ul li a:hover{
 nav .login{
     text-align: right;
 	cursor:pointer;
-    right: 3%;
-    top: 45%;
+    right: 3vh;
+    top: 3vh;
     position: absolute;
-    width: 45px;
+    width: 7vh;
 }
 nav .login:hover{
 	opacity: 20%;
@@ -92,9 +94,9 @@ nav .login:hover{
     position: relative;
 }
 .ArpegiosGuitarra1{
-    margin-left: -0.6%;
+    margin-left: -1.2vh;
     width: 101.2%;
-    top: 140px;
+    top: 22vh;
     position: absolute;
     z-index: -2;
 }
@@ -102,7 +104,7 @@ nav .login:hover{
     width: 100%;
     height: 100%;
     left: 0px;
-    top: 915px;
+    top: 140vh;
     position: absolute;
     transform: rotate(-90deg);
     transform-origin: 0 0;
@@ -111,7 +113,7 @@ nav .login:hover{
 }
 .Rectangle25{
     width: 100%;
-    height: 418px;
+    height: 65vh;
     left: 0px;
     top: 128%;
     position: absolute;
@@ -136,49 +138,49 @@ nav .login:hover{
 }
 .Rectangle28{
     width: 100%;
-    height: 9px;
+    height: 1.6vh;
     left: 0px;
-    top: 1240px;
+    top: 198vh;
     position: absolute;
     background: #462217;
 }
 .Rectangle29{
     width: 100%;
-    height: 9px;
+    height: 1.6vh;
     left: 0px;
-    top: 1270px;
+    top: 202vh;
     position: absolute;
     background: rgba(70, 34.28, 23, 0.75);
 }
 .Rectangle30{
     width: 100%;
-    height: 9px;
+    height: 1.6vh;
     left: 0px;
-    top: 1295px;
+    top: 206vh;
     position: absolute;
     background: rgba(70, 34.28, 23, 0.50);
 }
 .Rectangle31{
     width: 100%;
-    height: 9px;
+    height: 1.6vh;
     left: 0px;
-    top: 1315px;
+    top: 209vh;
     position: absolute;
     background: rgba(70, 34.28, 23, 0.25);
 }
 .Rectangle32{
     width: 100%;
-    height: 9px;
+    height: 1.6vh;
     left: 0px;
-    top: 1332px;
+    top: 212vh;
     position: absolute;
     background: rgba(70, 34.28, 23, 0.10);
 }
 .Rectangle33{
     width: 100%;
-    height: 9px;
+    height: 1.6vh;
     left: 0px;
-    top: 1346px;
+    top: 215vh;
     position: absolute;
     background: rgba(70, 34.28, 23, 0.05);
 }
@@ -186,8 +188,8 @@ nav .login:hover{
     position: absolute;
     left: 25%;
     width: 50%;
-    height: 195px;
-    top: 1400px;
+    height: 30vh;
+    top: 225vh;
     align-items: center;
     text-align: center;
     text-decoration: none;
@@ -196,9 +198,9 @@ nav .login:hover{
 }
 
 nav .Catalogo{
-    margin-top: 9%;
+    margin-top: 9vh;
     color: black;
-    font-size: 64px;
+    font-size: 10vh;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     cursor:pointer;
 }
@@ -213,7 +215,7 @@ nav .Catalogo a:hover{
 
 .SobreNosotros {
     position: absolute;
-    top: 1700px;
+    top: 270vh;
     width: 100%;
     left: 0px;
     text-align: center;
@@ -269,9 +271,9 @@ nav .Catalogo a:hover{
     border: 1px white solid;
 }
 .Vector1{
-    width: 13%;
-    left: 45%;
-    bottom: 15px;
+    width: 3vh;
+    left: 50%;
+    bottom: 35%;
     position: absolute;
 }
 .Vector1:hover{
@@ -280,7 +282,7 @@ nav .Catalogo a:hover{
 .Vector2{
     width: 16%;
     left: 48%;
-    bottom: 15px;
+    bottom: 35%;
     position: absolute;
 }
 .Vector2:hover{
@@ -289,7 +291,7 @@ nav .Catalogo a:hover{
 .Vector3{
     width: 17%;
     left: 52.5%;
-    bottom: 15px;
+    bottom: 35%;
     position: absolute;
 }
 .Vector3:hover{
