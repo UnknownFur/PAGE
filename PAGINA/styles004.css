@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Micro+5&display=swap');
+
+.Rectangle20{
+    width: 100%;
+    height: 70%;
+    left: 0px;
+    margin-top: 22vh;
+    position:absolute;
+    background: linear-gradient(90deg,#6b3e07,#8f4a39);
+}
+.contentLog {
+    display: flex;
+    justify-content: center;
+}
+.Rectangle26 {
+    width: 40%;
+    height: 47vh;
+    position: relative;
+    margin-top: 30vh;
+    margin-bottom: 7.5vh;
+    background-color: #332009;
+    border-radius: 85px;
+    text-align: center;
+    
+}
+p{
+    font-size: 6vh;
+    font-family: "Kode Mono", monospace;
+    color: #fff;
+}
+.contentRec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Rectangle27 {
+    width: 98%;
+    height: 65%;
+    margin-top: 22vh;
+    position: absolute;
+    background-color: #a89160;
+    border-radius: 80px;
+}
+form{
+    display: inline-block;
+    justify-content: center;
+}
+.email{
+    width: 110%;
+    font-size: 3vh;
+    font-weight: bold;
+    font-family: "Kode Mono", monospace;
+    color: black;
+    margin-top: 6%;
+}
+#email_id{
+    font-size: 3vh;
+    color:rgb(85, 78, 78);
+    font-weight: bold;
+    font-family: "Kode Mono", monospace;
+}
+.password{
+    width: 100%;
+    font-size: 3vh;
+    font-weight: bold;
+    font-family: "Kode Mono", monospace;
+    color: black;
+    margin-top: 5%;
+}
+#password_id{
+    font-size: 3vh;
+    color:rgb(85, 78, 78);
+    font-weight: bold;
+    font-family: "Kode Mono", monospace;
+}
+.button{
+    margin-top: 5%;
+}
+.button button{
+    width: 50%;
+    font-size: 2.5vh;
+    font-weight: bold;
+    font-family: "Kode Mono", monospace;
+    color: black;
+    background-color: #775035;
+    border: 1px solid #775035;
+}
+.button button:hover{
+    background-color: #332009;
+    border: 1px solid #332009;
+}
+.register{
+    font-style: italic;
+    margin-top: 4%;
+}
+.register a{
+    color: #332009;
+    text-decoration: none;
+}
+.register a:hover{
+    color: #995e4f;
+}
+
+nav .bananaMan{
+    position: fixed;
+	cursor:pointer;
+    left: 0px;
+    bottom: 0%;
+    z-index:-5;
+}
+
+@media only screen and (max-width:700px){
+    .Rectangle26 {
+        width: 80%;
+        height: 400px;
+        margin-top: 35%;
+    }
+    .Rectangle20{
+        width: 100%;
+        height: 100%;
+        left: 0px;
+        margin-top: 0vh;
+    }
+    .SobreNosotros{
+        bottom: 0px;
+        position: fixed
+    }
+    p{
+        margin-top: 5%;
+        margin-bottom: 0%;
+        font-size: 24px;
+    }
+    .Rectangle27 {
+        width: 94%;
+        height: 80%;
+        margin-top: 365px;
+        border-radius: 80px;
+    }
+    .Rectangle27 form{
+        margin-top: 65px;
+    }
+    .email{
+        width: 110%;
+        font-size: 12px;
+    }
+    #email_id{
+        font-size: 12px;
+    }
+    .password{
+        width: 100%;
+        font-size: 12px;
+    }
+    #password_id{
+        font-size: 12px;
+    }
+    .button button{
+        width: 50%;
+        font-size: 12px;
+        border: 1px solid #775035;
+    }
+    .button button:hover{
+        border: 1px solid #332009;
+    }
+    nav .bananaMan{
+        left: 0px;
+        z-index:-5;
+    }
+    
+}

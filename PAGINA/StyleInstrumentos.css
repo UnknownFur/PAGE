@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Micro+5&display=swap');
+
+section{
+	display: flex;
+    align-items: center;
+    flex-direction: column;
+	width: 100%;
+    height: 100%;
+}
+.galeria {
+	display: flex;
+    justify-content: center;
+	width: 80%;
+    height: 100%;
+	padding:180px 0px;
+}
+.galeria img{
+	height: 90%;
+    padding-top: 5%;
+}
+.cardInstru{
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+}
+.galeria .contenedorImg{
+    height: 100%;
+    box-shadow: 0 0 6px rgb(177, 177, 177);
+}
+.galeria .con{
+    text-align: center;
+    height: 100%;
+    font-size: 35px;
+    padding-left: 30px;
+}
+.BD{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 30ch;
+    margin-bottom: 2%;
+}
+.BD img{
+    width: 100%;
+    height: 60%;
+    box-shadow: 0 0 6px rgb(177, 177, 177);
+    transform: translateY(0px);
+    transition: 0.3s;
+}
+.BD img:hover{
+    transform: translateY(-15px);
+    opacity: 0.5;
+    transition: 0.5s;
+}
+.BD h1{
+    width: 20%;
+    text-align: center;
+    font-family: "Kode Mono", monospace;
+}
+.button{
+    padding: 2%;
+}
+.button button{
+    width: 300px;
+    height: 80px;
+    font-size: 2.5vh;
+    font-weight: bold;
+    font-family: "Kode Mono", monospace;
+    color: black;
+    background-color: #775035;
+    border: 1px solid #775035;
+}
+.button button:hover{
+    background-color: #332009;
+    border: 1px solid #332009;
+}
+a {
+    text-decoration: none;
+    color: wheat;
+}
+.testo{
+    font-size: 20px;
+}
+.cambio{
+    padding-top: 10px;
+    align-items: center;
+}
+.cambio img{
+    width: 10%;
+    height: 10%;
+    padding: 1%;
+    box-shadow: 0 0 6px rgb(177, 177, 177);
+}
+ol li{
+    list-style: none;
+}
